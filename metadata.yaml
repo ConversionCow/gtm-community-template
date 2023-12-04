@@ -15,5 +15,5 @@
 homepage: "https://www.conversioncw.com"
 documentation: "https://support.conversioncow.com/hc/en-us"
 versions:
-  - sha:
+  - sha: 32768e5470aed115172e4403a81020741b324207
     changeNotes: Initial Version
