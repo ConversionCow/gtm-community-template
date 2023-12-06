@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "ConversionCow",
+  "categories": ["CONVERSIONS", "EXPERIMENTATION", "LEAD_GENERATION", "PERSONALIZATION"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -32,7 +33,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "TEXT",
     "name": "userCode",
-    "displayName": "User Code",
+    "displayName": "User code",
     "simpleValueType": true,
     "help": "The unique code found in your \u003cem\u003eInstall\u003c/em\u003e page in the ConversionCow portal."
   }
@@ -149,6 +150,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 07/12/2023, 9:28:33 am
+Created on 07/12/2023, 9:30:57 am
 
 
