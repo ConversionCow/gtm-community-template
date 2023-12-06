@@ -14,7 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "ConversionCow",
-  "categories": ["CONVERSIONS", "EXPERIMENTATION", "LEAD_GENERATION", "PERSONALIZATION"],
+  "categories": ["CONVERSIONS", "EXPERIMENTATION", "LEAD_GENERATION"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
