@@ -15,9 +15,7 @@
 homepage: "https://www.conversioncw.com"
 documentation: "https://support.conversioncow.com/hc/en-us"
 versions:
-  - sha: a49d8831268a803227d3be8036aaed9261f44ae5
-    changeNotes: Update field name and template categories
-  - sha: 464b3107e8fd39fb9f501885a881851dff46eea6
-    changeNotes: Updated field to match gallery style guide
+  - sha: 8b4d077570ee0611f59d82395467e7ba276b5e0a
+    changeNotes: Updated template to better match gallery style guide
   - sha: 32768e5470aed115172e4403a81020741b324207
     changeNotes: Initial Version
