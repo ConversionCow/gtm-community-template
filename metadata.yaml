@@ -15,6 +15,8 @@
 homepage: "https://www.conversioncw.com"
 documentation: "https://support.conversioncow.com/hc/en-us"
 versions:
+  - sha: cb6c609518001e2803e54758975eb9e1f43271a8
+    changeNotes: Update template to support public API
   - sha: 8b4d077570ee0611f59d82395467e7ba276b5e0a
     changeNotes: Updated template to better match gallery style guide
   - sha: 32768e5470aed115172e4403a81020741b324207
