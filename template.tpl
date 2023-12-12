@@ -42,9 +42,11 @@ ___TEMPLATE_PARAMETERS___
 
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
-const setInWindow = require('setInWindow');
+const createArgumentsQueue = require('createArgumentsQueue');
 const injectScript = require('injectScript');
-setInWindow('ccunique', data.user_code, true);
+
+const ConversionCow = createArgumentsQueue('ConversionCow', 'ConversionCow.w');
+ConversionCow('init', data.userCode);
 injectScript('https://cdn.conversioncow.io/prod/bundle.min.js');
 
 data.gtmOnSuccess();
@@ -88,7 +90,46 @@ ___WEB_PERMISSIONS___
                 "mapValue": [
                   {
                     "type": 1,
-                    "string": "ccunique"
+                    "string": "ConversionCow"
+                  },
+                  {
+                    "type": 8,
+                    "boolean": true
+                  },
+                  {
+                    "type": 8,
+                    "boolean": true
+                  },
+                  {
+                    "type": 8,
+                    "boolean": false
+                  }
+                ]
+              },
+              {
+                "type": 3,
+                "mapKey": [
+                  {
+                    "type": 1,
+                    "string": "key"
+                  },
+                  {
+                    "type": 1,
+                    "string": "read"
+                  },
+                  {
+                    "type": 1,
+                    "string": "write"
+                  },
+                  {
+                    "type": 1,
+                    "string": "execute"
+                  }
+                ],
+                "mapValue": [
+                  {
+                    "type": 1,
+                    "string": "ConversionCow.w"
                   },
                   {
                     "type": 8,
@@ -150,6 +191,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 07/12/2023, 9:30:57 am
+Created on 12/12/2023, 3:33:54 pm
 
 
